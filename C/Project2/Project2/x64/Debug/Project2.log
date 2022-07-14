@@ -1,0 +1,9 @@
+﻿  study04.c
+C:\Users\KB\Documents\Visual Studio 2022\Project2\Project2\study04.c(7,10): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\KB\Documents\Visual Studio 2022\Project2\Project2\study04.c(7,10): message : 이 인수는 버퍼 크기로 사용됩니다.
+C:\Users\KB\Documents\Visual Studio 2022\Project2\Project2\study04.c(12,2): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\KB\Documents\Visual Studio 2022\Project2\Project2\study04.c(26,22): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\KB\Documents\Visual Studio 2022\Project2\Project2\study04.c(26,22): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+C:\Users\KB\Documents\Visual Studio 2022\Project2\Project2\study04.c(29,22): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\KB\Documents\Visual Studio 2022\Project2\Project2\study04.c(29,22): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+  Project2.vcxproj -> C:\Users\KB\Documents\Visual Studio 2022\Project2\x64\Debug\Project2.exe
