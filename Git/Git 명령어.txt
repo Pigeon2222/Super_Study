@@ -14,7 +14,7 @@ git branch //등록된 브랜치 확인
 git branch -al //모든 브랜치 확인
 git checkout 브랜치 //선택한 브랜치로 메인 변경
 git branch -d 브랜치 //브랜치 삭제
-git push -d origin 브랜치 //브랜치 삭제를 깃허브에 반영
+git push -d 주소 브랜치 //브랜치 삭제를 깃허브에 반영
 
 git pull 주소 브랜치 //주소 및 브랜치 당기기
 git merge 브랜치 //해당 브랜치를 현재 브랜치에 병합
@@ -37,5 +37,7 @@ git reset 로그의커밋 //해당 커밋까지 취소
 구이
 스캔 > 체인지 > 커밋 > 푸쉬
 리셋 > 하드
+
+
 
 깃허브 md 꾸미기
