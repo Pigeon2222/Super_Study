@@ -28,9 +28,19 @@ git log //로그 확인
 q //로그 확인 후 돌아오기
 :q //오류시 돌아오기
 
+cd 폴더명 //폴더로 들어가기
+cd .. //폴더 나오기
+
 git revert 로그의커밋 //해당 커밋만 취소
 git reset --hard HEAD~ //1회 취소
 git reset 로그의커밋 //해당 커밋까지 취소
+
+저장소에서 원하는 폴더만 당기기
+git init
+git config core.sparsecheckout true
+git remote  add -f origin 주소
+echo 폴더명/* > .git/info/sparse-checkout
+git pull origin main
 
 
 
@@ -38,6 +48,6 @@ git reset 로그의커밋 //해당 커밋까지 취소
 스캔 > 체인지 > 커밋 > 푸쉬
 리셋 > 하드
 
-
+Fork //내 저장소로 당기기
 
 깃허브 md 꾸미기
