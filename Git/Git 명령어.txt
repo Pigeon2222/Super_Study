@@ -32,8 +32,9 @@ cd 폴더명 //폴더로 들어가기
 cd .. //폴더 나오기
 
 git revert 로그의커밋 //해당 커밋만 취소
-git reset --hard HEAD~ //1회 취소
+git reset head^ //1회 취소
 git reset 로그의커밋 //해당 커밋까지 취소
+git reset --hard 로그의커밋 //해당 커밋까지 취소하며 삭제
 
 저장소에서 원하는 폴더만 당기기
 git init
