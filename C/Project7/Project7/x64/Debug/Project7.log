@@ -1,9 +1,0 @@
-﻿  study02.c
-C:\Users\KB\Downloads\Project7\Project7\study02.c(6,2): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\KB\Downloads\Project7\Project7\study02.c(8,26): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\KB\Downloads\Project7\Project7\study02.c(16,27): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\KB\Downloads\Project7\Project7\study02.c(27,27): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\KB\Downloads\Project7\Project7\study02.c(35,26): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\KB\Downloads\Project7\Project7\study02.c(47,21): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\KB\Downloads\Project7\Project7\study02.c(51,17): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-  Project7.vcxproj -> C:\Users\KB\Downloads\Project7\x64\Debug\Project7.exe
