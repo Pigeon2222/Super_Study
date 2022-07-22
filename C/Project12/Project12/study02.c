@@ -1,11 +1,12 @@
 #include<stdio.h>
 
+//1. 숫자 2개를 매개변수로 받고 그 중에서 가장 큰 값을 반환해주는 함수 만들기
 int ch1(int a1, int b1) {
 	if (a1 >= b1)
 		return a1;
 	return b1;
 }
-
+//2. 숫자 2개를 서로 바꿔주는 함수 만들기
 void ch2(int* a, int* b) {
 	int c = *a;
 	*a = *b;
